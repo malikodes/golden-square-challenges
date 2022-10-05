@@ -1,0 +1,33 @@
+<!-- 
+#### Problem ####
+
+As a user
+So that I can keep track of my tasks
+I want to check if a text includes the string #TODO.
+
+-------------------------------------------
+
+#### Signature of the method ####
+
+The name of the method.
+check_todo
+
+What parameters it takes, their names and data types.
+string
+
+What it returns and the data type of that value.
+returns a boolean, true if string includes #TODO otherwise false
+
+--------------------------------------------
+
+#### Test examples ####
+
+contains_todo = check_todo(string)
+
+x if string is empty, throw an error
+x if string includes todo returns false
+x if string includes #todo returns false
+x if string includes TODO returns false
+x if string includes #TODO returns true
+
+-->
